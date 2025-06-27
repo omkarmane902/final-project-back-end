@@ -12,7 +12,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 // ✅ Allow only frontend domain to access backend
 app.use(cors({
-  origin: 'https://final-project-front-end-ld9j.vercel.app',
+  origin: 'final-project-front-end-mna3.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
